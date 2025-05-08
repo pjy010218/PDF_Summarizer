@@ -34,22 +34,22 @@ pip install -r requirements.txt
 
 ======================================================================
 
-The following paths are hardcoded in the script. 
+The following paths are hardcoded in the script.  
 Please revise to match your loacl machine directory.
 
-INCOMING_FOLDER = "C:\\Automation\\PaperDrop"
-VAULT_PATH = "C:\\ResearchPaperVault\\ResearchPaperVault"
-PDF_FOLDER = os.path.join(VAULT_PATH, "Papers")
-NOTE_FOLDER = os.path.join(VAULT_PATH, "Notes")
+INCOMING_FOLDER = "C:\\Automation\\PaperDrop"  
+VAULT_PATH = "C:\\ResearchPaperVault\\ResearchPaperVault"  
+PDF_FOLDER = os.path.join(VAULT_PATH, "Papers")  
+NOTE_FOLDER = os.path.join(VAULT_PATH, "Notes")  
 
 ======================================================================
 
 [Example]
 ---
-title: "Sample_Research_Paper"
-tags: [machine, learning, neural, model, accuracy]
-source_pdf: ./Papers/Sample_Research_Paper.pdf
-created: 2025-05-08
+title: "Sample_Research_Paper"  
+tags: [machine, learning, neural, model, accuracy]  
+source_pdf: ./Papers/Sample_Research_Paper.pdf  
+created: 2025-05-08  
 ---
 
 ## 🔍 Summary
